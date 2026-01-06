@@ -277,6 +277,8 @@ You can view the bucket and its contents on port `8888`
 http://192.168.1.100:8888
 ```
 
+![Seaweed UI](./images/seaweed-ui.png)
+
 **Common bucket names:**
 - `loki-logs` - For Loki log storage
 - `authentik-media` - For Authentik user-uploaded media
@@ -586,8 +588,6 @@ kubectl exec -n cnpg-system postgres-1 -- \
 # Import to external
 docker exec -i postgres psql -U postgres < cluster-backup.sql
 ```
-
-For detailed migration steps, see the archived documentation in `archive/MIGRATION_GUIDE.md`.
 
 ---
 
