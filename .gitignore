@@ -1,0 +1,24 @@
+# Environment variables
+.env
+
+# Docker volumes (data should be on /mnt/data)
+volumes/
+
+# Backup files
+*.backup
+*.sql.gz
+*.dump
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
