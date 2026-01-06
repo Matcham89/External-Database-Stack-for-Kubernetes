@@ -1,3 +1,7 @@
+---
+title: External Database Stack for Kubernetes
+---
+
 # External Database Stack for Kubernetes
 
 A production-ready setup for running PostgreSQL and S3-compatible storage on dedicated hardware, designed to be consumed by Kubernetes clusters via external services. This mirrors cloud-native patterns where databases are managed separately from compute clusters (like connecting GKE to Cloud SQL or EKS to RDS).
