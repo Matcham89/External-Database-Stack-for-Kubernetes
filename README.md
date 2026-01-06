@@ -786,37 +786,6 @@ Uncomment the ollama service section to enable. Don't forget to:
 | seaweedfs-filer-metrics | 9328 | Metrics |
 | seaweedfs-s3-metrics | 9329 | Metrics |
 
----
-
-## Files in This Repository
-
-```
-.
-├── docker-compose.yaml           # Main service definitions
-├── k8s-external-services.yaml    # Kubernetes services and endpoints
-├── .env.example                  # Environment template
-├── s3-config.json               # SeaweedFS S3 credentials
-├── .gitignore                   # Git ignore rules
-├── README.md                    # This file
-└── archive/                     # Historical documentation
-    ├── MIGRATION_GUIDE.md       # Original migration guide
-    ├── CLUSTER_INTEGRATION.md   # Cluster integration details
-    └── NAMESPACE_AND_GATEWAY_GUIDE.md
-```
-
----
-
-## What's Next?
-
-After getting this running, consider:
-
-1. **Automated backups**: Set up cron jobs for PostgreSQL backups
-2. **Monitoring dashboards**: Import Grafana dashboards for PostgreSQL metrics
-3. **High availability**: Add PostgreSQL replicas if needed
-4. **Testing optional services**: Try Qdrant or Ollama if you need them
-5. **S3 bucket lifecycle**: Configure retention policies in SeaweedFS
-6. **SSL/TLS**: Add reverse proxy with certificates for production
-7. **Migrate more apps**: Move other workloads to use external databases
 
 ---
 
